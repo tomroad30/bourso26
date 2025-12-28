@@ -1,36 +1,150 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bourso26 - Site de Parrainage Boursorama
 
-## Getting Started
+Un site web moderne pour promouvoir votre code de parrainage Boursorama et gagner de l'argent en parrainant vos amis.
 
-First, run the development server:
+## 🚀 Fonctionnalités
 
+- **Page d'accueil attrayante** avec appel à l'action
+- **Code de parrainage personnalisable** avec copie facile
+- **Partage sur les réseaux sociaux** (WhatsApp, Facebook, Twitter, Email)
+- **Lien de parrainage personnel** à partager
+- **Section "Comment ça marche"** avec tutoriel en 4 étapes
+- **FAQ** avec les questions les plus posées
+- **Design responsive** qui s'adapte à tous les appareils
+- **Performance optimisée** avec Next.js et Tailwind CSS
+
+## 💻 Tech Stack
+
+- **Next.js 16** - Framework React avec SSR et SSG
+- **React 19** - Bibliothèque UI
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Framework CSS utilitaire
+- **ESLint** - Linting et qualité du code
+
+## 📦 Installation
+
+### Prérequis
+- Node.js 18+ 
+- npm ou yarn
+
+### Étapes
+
+1. **Installer les dépendances**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd bourso26
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Lancer le serveur de développement**
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Ouvrir dans le navigateur**
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Configuration
 
-## Learn More
+### Modifier votre code de parrainage
 
-To learn more about Next.js, take a look at the following resources:
+Dans `app/page.tsx`, remplacez `LUCAS26` par votre code personnel :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```typescript
+const [referralCode] = useState('VOTRE_CODE_ICI');
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Personnaliser le contenu
 
-## Deploy on Vercel
+Tous les textes et messages peuvent être modifiés dans les composants correspondants :
+- `components/Hero.tsx` - Section héroïque
+- `components/ReferralCode.tsx` - Affichage du code
+- `components/Features.tsx` - Caractéristiques
+- `components/HowItWorks.tsx` - Tutoriel et FAQ
+- `components/Footer.tsx` - Pied de page
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Mettre à jour les métadonnées
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Modifiez les métadonnées du site dans `app/layout.tsx` :
+- Titre
+- Description
+- Mots-clés
+
+## 📱 Partage
+
+Le site inclut des boutons de partage pour :
+- **WhatsApp** - Partage direct par message
+- **Facebook** - Partage sur le fil d'actualité
+- **Twitter** - Partage avec mention personnalisée
+- **Email** - Envoi par email
+- **Lien personnel** - URL direct à copier
+
+## 🚀 Déploiement
+
+### Sur Vercel (recommandé)
+
+1. Poussez votre code sur GitHub
+2. Importez le projet sur Vercel.com
+3. Vercel détectera automatiquement Next.js et configurera tout
+
+### Sur un serveur personnalisé
+
+```bash
+npm run build
+npm start
+```
+
+L'application sera disponible sur le port 3000.
+
+## 📊 Structure du projet
+
+```
+bourso26/
+├── app/
+│   ├── components/           # Composants React
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── ReferralCode.tsx
+│   │   ├── Features.tsx
+│   │   ├── HowItWorks.tsx
+│   │   └── Footer.tsx
+│   ├── globals.css           # Styles globaux
+│   ├── layout.tsx            # Layout principal
+│   └── page.tsx              # Page d'accueil
+├── public/                   # Assets statiques
+├── package.json              # Dépendances
+├── tsconfig.json             # Configuration TypeScript
+├── tailwind.config.ts        # Configuration Tailwind
+└── next.config.ts            # Configuration Next.js
+```
+
+## 🎨 Personnalisation du design
+
+Le site utilise Tailwind CSS. Pour modifier les couleurs :
+
+1. Modifier les classes Tailwind dans les composants
+2. Les couleurs principales sont `blue-600`, `blue-800`, etc.
+3. Vous pouvez personnaliser via `tailwind.config.ts`
+
+## 📝 Notes importantes
+
+- ⚠️ Remplacez `LUCAS26` par votre vrai code de parrainage
+- ⚠️ Changez l'URL de partage (`https://bourso26.fr`) par votre domaine réel
+- ⚠️ Vérifiez les conditions de Boursorama avant de publier
+- 📋 Mettez à jour les mentions légales et conditions d'utilisation
+
+## 🤝 Support
+
+Pour modifier ou améliorer le site, consultez :
+- [Documentation Next.js](https://nextjs.org/docs)
+- [Documentation Tailwind CSS](https://tailwindcss.com/docs)
+- [Documentation React](https://react.dev)
+
+## 📄 Licence
+
+Ce projet est fourni tel quel à titre personnel.
+
+---
+
+**Bon parrainage ! 💰**
