@@ -26,11 +26,6 @@ export default function ReferralCode({ referralCode }: { referralCode: string })
   return (
     <section className="w-full py-12 md:py-16 lg:py-20 bg-white">
       <div className="mx-auto max-w-4xl px-4 md:px-8 lg:px-12">
-        <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 md:mb-4">Mon Code de Parrainage</h2>
-          <p className="text-gray-600 text-base md:text-lg">Utilisez ce code pour que vos amis bénéficient de la prime de bienvenue</p>
-        </div>
-
         <div className="mb-8 md:mb-12 rounded-2xl bg-white p-6 md:p-8 lg:p-10">
           <div className="flex flex-col sm:flex-row gap-4 items-center">
             <button
