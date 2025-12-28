@@ -6,7 +6,7 @@ export default function ConditionsGenerales() {
       {/* Header */}
       <div className="bg-gradient-to-b from-blue-50 to-white py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-4 md:px-8 lg:px-12">
-          <Link href="/" className="text-[#EC1C24] hover:underline font-medium text-sm mb-4 inline-block">
+          <Link href="/" className="text-[#D20073] hover:underline font-medium text-sm mb-4 inline-block">
             ← Retour à l'accueil
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4">Conditions générales d'utilisation</h1>
@@ -20,7 +20,7 @@ export default function ConditionsGenerales() {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Objet</h2>
           <p className="text-gray-600 leading-relaxed">
             Le présent site web a pour objet de permettre aux utilisateurs de consulter et de partager leur code de parrainage Boursobank.
-            Bourso26 est un site indépendant proposant à titre personnel un code de parrainage.
+            Mon Parrain Boursobank est un site indépendant proposant à titre personnel un code de parrainage.
           </p>
         </section>
 
@@ -57,7 +57,7 @@ export default function ConditionsGenerales() {
         <section className="mb-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Responsabilité</h2>
           <p className="text-gray-600 leading-relaxed mb-3">
-            Bourso26 décline toute responsabilité concernant :
+            Mon Parrain Boursobank décline toute responsabilité concernant :
           </p>
           <ul className="text-gray-600 list-disc list-inside space-y-2">
             <li>Les erreurs ou omissions du contenu</li>
