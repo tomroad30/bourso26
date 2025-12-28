@@ -25,33 +25,16 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-                <a href="mailto:contact@bourso26.fr" className="text-[#D20073] hover:underline">
-                  contact@bourso26.fr
+                <a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">
+                  contact@monparrainboursobank.fr
                 </a>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-gray-900 mb-2">Téléphone</h3>
-                <a href="tel:+33612345678" className="text-[#D20073] hover:underline">
-                  +33 6 12 34 56 78
-                </a>
-              </div>
-
-              <div>
-                <h3 className="font-bold text-gray-900 mb-2">Horaires</h3>
-                <p className="text-gray-600">
-                  Lundi - Vendredi: 9h00 - 18h00<br />
-                  Samedi: 10h00 - 16h00<br />
-                  Dimanche: Fermé
-                </p>
               </div>
 
               <div>
                 <h3 className="font-bold text-gray-900 mb-2">Adresse</h3>
                 <p className="text-gray-600">
-                  Bourso26<br />
-                  [Votre adresse]<br />
-                  [Ville, Code postal]<br />
+                  Mon Parrain Boursobank<br />
+                  Site d'information indépendant<br />
                   France
                 </p>
               </div>
@@ -132,7 +115,6 @@ export default function Contact() {
         {/* FAQ */}
         <section id="faq" className="mt-16">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions fréquemment posées</h2>
-          
           <div className="space-y-4">
             <details className="border border-gray-200 rounded-lg p-4 cursor-pointer hover:bg-gray-50">
               <summary className="font-bold text-gray-900">Comment puis-je commencer à parrainer ?</summary>

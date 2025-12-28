@@ -6,82 +6,94 @@ export default function MentionsLegales() {
       {/* Header */}
       <div className="bg-gradient-to-b from-blue-50 to-white py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-4 md:px-8 lg:px-12">
-          <Link href="/" className="text-[#EC1C24] hover:underline font-medium text-sm mb-4 inline-block">
+          <Link href="/" className="text-[#D20073] hover:underline font-medium text-sm mb-4 inline-block">
             ← Retour à l'accueil
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4">Mentions légales</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4">Mentions Légales</h1>
         </div>
       </div>
 
       {/* Content */}
-      <div className="mx-auto max-w-4xl px-4 md:px-8 lg:px-12 py-12 md:py-16 prose prose-lg max-w-none">
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Éditeur du site</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Le présent site web est édité par :<br />
-            <strong>Bourso26</strong><br />
-            [Votre nom ou nom de l'entreprise]<br />
-            Adresse : [Votre adresse]<br />
-            Email : contact@bourso26.fr<br />
-            Téléphone : [Votre téléphone]<br />
-            SIRET/SIREN : [Vos numéros]
+      <div className="mx-auto max-w-4xl px-4 md:px-8 lg:px-12 py-12 md:py-16">
+        <div className="prose prose-lg max-w-none">
+          
+          <h2>1. Éditeur du site</h2>
+          <p>
+            <strong>Nom :</strong> monparrainboursobank<br />
+            <strong>Nature :</strong> Site d'information indépendant<br />
+            <strong>Email :</strong> <a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">contact@monparrainboursobank.fr</a>
           </p>
-        </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Hébergement</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Le site est hébergé par :<br />
+          <h2>2. Hébergement</h2>
+          <p>
+            Ce site est hébergé par :<br />
             <strong>Vercel Inc.</strong><br />
             340 S Lemon Ave #4133<br />
             Walnut, CA 91789<br />
             États-Unis
           </p>
-        </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">3. Directeur de la publication</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Responsable de la publication : [Votre nom]<br />
-            Email : [Votre email]
+          <h2>3. Responsable de la publication</h2>
+          <p>
+            <strong>Responsable :</strong> monparrainboursobank
           </p>
-        </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">4. Propriété intellectuelle</h2>
-          <p className="text-gray-600 leading-relaxed">
-            L'ensemble du contenu du site (textes, images, vidéos, logos, etc.) est la propriété de Bourso26 ou de ses partenaires. 
-            Toute reproduction ou utilisation non autorisée est strictement interdite.
+          <h2>4. Indépendance et Avertissement Important</h2>
+          <p>
+            <strong>monparrainboursobank</strong> est un site d'information <strong>indépendant</strong> et n'est <strong>en aucun cas associé, affilié ou sponsorisé</strong> par :
           </p>
-        </section>
+          <ul>
+            <li>Boursobank</li>
+            <li>Boursorama Banque</li>
+            <li>Le groupe Boursorama</li>
+            <li>Toute autre entité du groupe Société Générale</li>
+          </ul>
+          <p>
+            Les informations fournies sur ce site concernant le programme de parrainage Boursobank sont basées sur les conditions publiquement disponibles et sont fournies à titre informatif uniquement. L'utilisateur est responsable de vérifier les conditions actuelles directement auprès de Boursobank avant de participer au programme.
+          </p>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Responsabilité</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Bourso26 décline toute responsabilité concernant :<br />
-            - Les erreurs ou omissions présentes sur le site<br />
-            - L'indisponibilité du site<br />
-            - Les dommages causés par l'utilisation du site<br />
-            - Les contenus externes liés depuis ce site
+          <h2>5. Propriété Intellectuelle</h2>
+          <p>
+            L'ensemble du contenu de ce site (textes, images, logos, graphiques) est la propriété exclusive de monparrainboursobank ou de ses partenaires. Toute reproduction, distribution ou modification sans autorisation écrite préalable est interdite.
           </p>
-        </section>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Affiliation avec Boursorama</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Ce site n'est pas affilié à, approuvé ou endossé par Boursorama Banque. 
-            Bourso26 est un site indépendant de partage de code de parrainage.
-            Boursorama Banque est une marque de Boursorama SA.
+          <h2>6. Limitations de Responsabilité</h2>
+          <p>
+            L'utilisateur accède au site à ses propres risques. monparrainboursobank décline toute responsabilité concernant :
           </p>
-        </section>
+          <ul>
+            <li>L'exactitude ou l'exhaustivité des informations fournies</li>
+            <li>Les dommages directs ou indirects résultant de l'utilisation du site</li>
+            <li>Les modifications apportées par Boursobank aux conditions du programme de parrainage</li>
+            <li>Les services fournis par des tiers</li>
+          </ul>
 
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">7. Modifications</h2>
-          <p className="text-gray-600 leading-relaxed">
-            Bourso26 se réserve le droit de modifier les présentes mentions légales à tout moment.
-            Les modifications seront publiées directement sur le site.
+          <h2>7. Liens Externes</h2>
+          <p>
+            Ce site contient des liens vers des sites externes (notamment Boursobank). monparrainboursobank ne peut être tenue responsable du contenu, de la disponibilité ou du fonctionnement de ces sites tiers.
           </p>
-        </section>
+
+          <h2>8. Données Personnelles et Confidentialité</h2>
+          <p>
+            Les données personnelles collectées via le formulaire de contact sont utilisées uniquement pour répondre aux demandes. Aucune donnée n'est partagée avec des tiers sans consentement explicite.
+          </p>
+
+          <h2>9. Droits d'Auteur</h2>
+          <p>
+            © {new Date().getFullYear()} monparrainboursobank. Tous droits réservés.
+          </p>
+
+          <h2>10. Modifications des Conditions</h2>
+          <p>
+            monparrainboursobank se réserve le droit de modifier ces mentions légales à tout moment. Les modifications entrent en vigueur immédiatement à leur publication sur le site.
+          </p>
+
+          <h2>11. Loi Applicable</h2>
+          <p>
+            Ce site est soumis à la loi française. Toute réclamation ou litige sera soumis aux tribunaux compétents.
+          </p>
+
+        </div>
       </div>
     </main>
   );

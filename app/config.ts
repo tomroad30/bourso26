@@ -27,10 +27,10 @@ export const config = {
   secondaryColor: '#0066CC', // Bleu secondaire
 
   // 📱 URL DE PARTAGE
-  shareUrl: 'https://bourso26.fr',
+  shareUrl: 'https://monparrainboursobank.fr',
 
   // 📧 CONTACT
-  contactEmail: 'contact@bourso26.fr',
+  contactEmail: 'contact@monparrainboursobank.fr',
   contactPhone: '+33 X XX XX XX XX', // À mettre à jour
 
   // 🏢 INFORMATIONS LÉGALES
