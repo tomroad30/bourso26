@@ -39,9 +39,10 @@ export default function ReferralCode({ referralCode }: { referralCode: string })
               style={{ borderColor: config.primaryColor }}
               title="Cliquer pour ouvrir le lien de parrainage"
             >
-              <p className="text-3xl md:text-4xl lg:text-5xl font-bold" style={{ color: config.primaryColor }}>
-                {referralCode}
+              <p className="text-2xl md:text-4xl lg:text-5xl font-bold" style={{ color: config.primaryColor }}>
+                MON LIEN
               </p>
+              <p className="text-xs md:text-sm text-gray-600 mt-2">{referralCode}</p>
             </button>
             <button
               onClick={handleCopy}
