@@ -31,6 +31,20 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo_site.jpg" />
         <meta name="google-adsense-account" content="ca-pub-5487089817655494" />
+        
+        {/* Google Analytics 4 */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-CBNL8MGSLX"
+        ></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-CBNL8MGSLX');`}
+        </script>
+        
+        {/* Google AdSense */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5487089817655494"
