@@ -1,0 +1,12 @@
+# Robots.txt for monparrainboursobank.fr
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /node_modules/
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://monparrainboursobank.fr/sitemap.xml
