@@ -22,7 +22,7 @@ export default function MentionsLegales() {
             <p className="text-gray-600">
               <strong>Nom :</strong> monparrainboursobank<br />
               <strong>Nature :</strong> Site d'information indépendant<br />
-              <strong>Email :</strong> <a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">contact@monparrainboursobank.fr</a>
+              <strong>Email :</strong> <a href="mailto:contact.monparrainboursobank@gmail.com" className="text-[#D20073] hover:underline">contact.monparrainboursobank@gmail.com</a>
             </p>
           </section>
 

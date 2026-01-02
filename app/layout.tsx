@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: "Ouvrez votre compte Boursobank (Boursorama Banque) et obtenez jusqu'à 200€ avec mon parrainage. Code de parrainage illimité et sans conditions.",
   keywords: "parrainage, Boursobank, Boursorama, gagne argent, code promo, banque en ligne, 200 euros",
   icons: {
-    icon: "/logo_site.jpg",
+    icon: "/favicon.svg",
   },
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-        <link rel="icon" href="/logo_site.jpg" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <meta name="google-adsense-account" content="ca-pub-5487089817655494" />
         
         {/* Google Analytics 4 */}

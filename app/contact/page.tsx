@@ -25,8 +25,8 @@ export default function Contact() {
             <div className="space-y-6">
               <div>
                 <h3 className="font-bold text-gray-900 mb-2">Email</h3>
-                <a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">
-                  contact@monparrainboursobank.fr
+                <a href="mailto:contact.monparrainboursobank@gmail.com" className="text-[#D20073] hover:underline">
+                  contact.monparrainboursobank@gmail.com
                 </a>
               </div>
 

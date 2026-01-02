@@ -83,7 +83,7 @@ export default function PolitiqueConfidentialite() {
             <li>Droit à la limitation du traitement</li>
           </ul>
           <p className="text-gray-600 leading-relaxed mt-3">
-            Pour exercer ces droits, veuillez nous contacter à <a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">contact@monparrainboursobank.fr</a>.
+            Pour exercer ces droits, veuillez nous contacter à <a href="mailto:contact.monparrainboursobank@gmail.com" className="text-[#D20073] hover:underline">contact.monparrainboursobank@gmail.com</a>.
           </p>
         </section>
 
@@ -100,7 +100,7 @@ export default function PolitiqueConfidentialite() {
             Si vous avez des questions concernant cette politique de confidentialité ou si vous souhaitez exercer vos droits, veuillez nous contacter à :
           </p>
           <p className="text-gray-600 leading-relaxed mt-3">
-            Email : <strong><a href="mailto:contact@monparrainboursobank.fr" className="text-[#D20073] hover:underline">contact@monparrainboursobank.fr</a></strong><br />
+            Email : <strong><a href="mailto:contact.monparrainboursobank@gmail.com" className="text-[#D20073] hover:underline">contact.monparrainboursobank@gmail.com</a></strong><br />
             Adresse : France
           </p>
         </section>

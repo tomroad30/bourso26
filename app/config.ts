@@ -30,7 +30,7 @@ export const config = {
   shareUrl: 'https://monparrainboursobank.fr',
 
   // 📧 CONTACT
-  contactEmail: 'contact@monparrainboursobank.fr',
+  contactEmail: 'contact.monparrainboursobank@gmail.com',
   contactPhone: '+33 X XX XX XX XX', // À mettre à jour
 
   // 🏢 INFORMATIONS LÉGALES
