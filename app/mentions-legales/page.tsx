@@ -47,7 +47,10 @@ export default function MentionsLegales() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">4. Indépendance et Avertissement Important</h2>
             <p className="text-gray-600 mb-3">
-              <strong>monparrainboursobank</strong> est un site d'information <strong>indépendant</strong> et n'est <strong>en aucun cas associé, affilié ou sponsorisé</strong> par :
+              <strong>CE SITE N'APPARTIENT PAS ET N'A PAS DE LIEN AVEC BOURSOBANK</strong>
+            </p>
+            <p className="text-gray-600 mb-3">
+              <strong>monparrainboursobank</strong> est un site personnel créé par un client de BoursoBank. Ce site n'est <strong>en aucun cas associé, affilié ou sponsorisé</strong> par :
             </p>
             <ul className="text-gray-600 list-disc list-inside space-y-1 mb-3">
               <li>Boursobank</li>
@@ -55,6 +58,12 @@ export default function MentionsLegales() {
               <li>Le groupe Boursorama</li>
               <li>Toute autre entité du groupe Société Générale</li>
             </ul>
+            <p className="text-gray-600 mb-3">
+              <strong>Nature du site :</strong> Site personnel d'information ayant pour objet le partage d'un code de parrainage personnel dans le cadre du programme officiel de parrainage proposé par BoursoBank.
+            </p>
+            <p className="text-gray-600 mb-3">
+              Ce site ne propose aucun service bancaire et ne collecte aucune donnée bancaire. Toute inscription à BoursoBank se fait directement et exclusivement sur le site officiel www.boursobank.com
+            </p>
             <p className="text-gray-600">
               Les informations fournies sur ce site concernant le programme de parrainage Boursobank sont basées sur les conditions publiquement disponibles et sont fournies à titre informatif uniquement. L'utilisateur est responsable de vérifier les conditions actuelles directement auprès de Boursobank avant de participer au programme.
             </p>
