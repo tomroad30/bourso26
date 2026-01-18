@@ -1,7 +1,19 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Blog from '@/app/components/Blog';
+
+export const metadata: Metadata = {
+  title: 'Blog BoursoBank - Guides, Conseils et Astuces | Mon Parrain Boursobank',
+  description: 'Découvrez notre blog avec des guides complets sur le parrainage BoursoBank, les cartes bancaires, l\'épargne, l\'application mobile et bien d\'autres conseils.',
+  keywords: 'blog BoursoBank, guides bancaires, conseils finance, astuces parrainage, tutoriels app',
+  openGraph: {
+    title: 'Blog BoursoBank - Guides et Conseils',
+    description: 'Découvrez nos guides complets sur BoursoBank et les services bancaires en ligne.',
+    url: 'https://monparrainboursobank.fr/blog',
+    type: 'website',
+  },
+};
 
 export default function BlogPage() {
   return (
