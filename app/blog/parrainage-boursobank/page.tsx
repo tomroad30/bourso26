@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['parrainage-boursobank'].title,
+  description: blogMetadata['parrainage-boursobank'].description,
+  keywords: blogMetadata['parrainage-boursobank'].keywords,
+  openGraph: {
+    title: blogMetadata['parrainage-boursobank'].title,
+    description: blogMetadata['parrainage-boursobank'].description,
+    url: 'https://monparrainboursobank.fr/blog/parrainage-boursobank',
+    type: 'article',
+    images: [{ url: '/blog/parrainage-boursobank.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

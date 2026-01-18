@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['cashback-boursobank-the-corner'].title,
+  description: blogMetadata['cashback-boursobank-the-corner'].description,
+  keywords: blogMetadata['cashback-boursobank-the-corner'].keywords,
+  openGraph: {
+    title: blogMetadata['cashback-boursobank-the-corner'].title,
+    description: blogMetadata['cashback-boursobank-the-corner'].description,
+    url: 'https://monparrainboursobank.fr/blog/cashback-boursobank-the-corner',
+    type: 'article',
+    images: [{ url: '/blog/cashback-boursobank-the-corner.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

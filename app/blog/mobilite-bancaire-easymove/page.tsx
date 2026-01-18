@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['mobilite-bancaire-easymove'].title,
+  description: blogMetadata['mobilite-bancaire-easymove'].description,
+  keywords: blogMetadata['mobilite-bancaire-easymove'].keywords,
+  openGraph: {
+    title: blogMetadata['mobilite-bancaire-easymove'].title,
+    description: blogMetadata['mobilite-bancaire-easymove'].description,
+    url: 'https://monparrainboursobank.fr/blog/mobilite-bancaire-easymove',
+    type: 'article',
+    images: [{ url: '/blog/mobilite-bancaire-easymove.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

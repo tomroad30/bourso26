@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['frais-bancaires-boursobank'].title,
+  description: blogMetadata['frais-bancaires-boursobank'].description,
+  keywords: blogMetadata['frais-bancaires-boursobank'].keywords,
+  openGraph: {
+    title: blogMetadata['frais-bancaires-boursobank'].title,
+    description: blogMetadata['frais-bancaires-boursobank'].description,
+    url: 'https://monparrainboursobank.fr/blog/frais-bancaires-boursobank',
+    type: 'article',
+    images: [{ url: '/blog/frais-bancaires-boursobank.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

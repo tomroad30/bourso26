@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['cartes-bancaires-boursobank'].title,
+  description: blogMetadata['cartes-bancaires-boursobank'].description,
+  keywords: blogMetadata['cartes-bancaires-boursobank'].keywords,
+  openGraph: {
+    title: blogMetadata['cartes-bancaires-boursobank'].title,
+    description: blogMetadata['cartes-bancaires-boursobank'].description,
+    url: 'https://monparrainboursobank.fr/blog/cartes-bancaires-boursobank',
+    type: 'article',
+    images: [{ url: '/blog/cartes-bancaires-boursobank.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['application-mobile-boursobank'].title,
+  description: blogMetadata['application-mobile-boursobank'].description,
+  keywords: blogMetadata['application-mobile-boursobank'].keywords,
+  openGraph: {
+    title: blogMetadata['application-mobile-boursobank'].title,
+    description: blogMetadata['application-mobile-boursobank'].description,
+    url: 'https://monparrainboursobank.fr/blog/application-mobile-boursobank',
+    type: 'article',
+    images: [{ url: '/blog/application-mobile-boursobank.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (

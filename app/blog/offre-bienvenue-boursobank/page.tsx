@@ -1,9 +1,23 @@
-'use client';
+import { Metadata } from 'next';
 import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Image from 'next/image';
 import Link from 'next/link';
 import { config } from '@/app/config';
+import { blogMetadata } from '@/app/blog/blog-metadata';
+
+export const metadata: Metadata = {
+  title: blogMetadata['offre-bienvenue-boursobank'].title,
+  description: blogMetadata['offre-bienvenue-boursobank'].description,
+  keywords: blogMetadata['offre-bienvenue-boursobank'].keywords,
+  openGraph: {
+    title: blogMetadata['offre-bienvenue-boursobank'].title,
+    description: blogMetadata['offre-bienvenue-boursobank'].description,
+    url: 'https://monparrainboursobank.fr/blog/offre-bienvenue-boursobank',
+    type: 'article',
+    images: [{ url: '/blog/offre-bienvenue-boursobank.jpg', width: 1200, height: 600 }],
+  },
+};
 
 export default function Article() {
   return (
